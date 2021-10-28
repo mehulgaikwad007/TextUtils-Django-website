@@ -1,0 +1,50 @@
+NOW WE CREATE BEAUTIFUL WIBSITE BY USING BOOTSTRAP
+
+STEPS
+
+01. COPY HTML FILES FOR BACKUP
+
+
+BUGS:
+
+01.  APAN TEXTAREA MADHE EKA KHALI EK WORDS LIHELE TAR
+     ANALYZE KELYA NANATER EKA SINGLE LINE MADHE YETAT
+
+     SOLUTION : USE <PRE> COMMANAD USE INSTED <P> IN analyzetext.html
+ 
+_____________________________________________________________________
+
+GET AND POST HTTP METHOD
+
+ There are various request methods : GET POST PUT 
+ DELETE HEAD CONNECT OPTION TACE PATCH
+
+01.GET METHOD :
+GET METHOD FOR CLIENT WANT IMAGE FROM SERVER (GET FOR GETTING FROM SERVER)
+
+SENDING DATA TO ADDRESS BAR
+mahnge data vr address bar madhe disto
+
+02.POST METHOD: (csrf token must)
+CLIENT WANT TO SUBMIT DATA  TO  SERVER 
+
+NOT DATA VISIBLE ON ADDRESS BAR
+mahnge address bar madhe data nahi disat
+
+
+[
+Now in this website we use POST METHOD
+]_____________________________________________________________________
+
+CSRF TOKEN (CROSS SITE REQUEST FOTGERY)
+
+csrf token tag -->  {% csrf_token %}   add in line of method- 'post'
+
+Hacker ne ek link pathavli 
+tya link vr click kele ki tumchya mobile madhil log on 
+aslele facebook acc delete honar (facebook/account/delete)
+
+ase dusryachya link varun fb server  madhe kahi change hove naye 
+mahnun csrf token lavtat.
+
+fb website madhun changes honar
